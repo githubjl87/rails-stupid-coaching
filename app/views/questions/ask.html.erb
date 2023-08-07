@@ -1,0 +1,10 @@
+<div class= "container">
+<h1 class="m-2">Stupid Coaching</h1>
+<p class="m-2">Ask your coach anything</p>
+<form action="answer" data-turbo="false" class="input-group">
+  <input type="text" name="question" value='<%= params[:question] %>' class="form-control w-50">
+  <div class="input-group-append">
+    <input type="submit" value="Ask" class="btn btn-primary">
+  </div>
+</form>
+</div>
